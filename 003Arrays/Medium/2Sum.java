@@ -20,3 +20,12 @@ class Solution {
         return ans;
     }
 }
+
+
+
+// ROUGH WORK
+
+
+
+
+
