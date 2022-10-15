@@ -1,4 +1,8 @@
+// problem -- https://leetcode.com/problems/majority-element/
 class Solution {
+
+    // This is moore's voting algorithm
+    // Note := I do not understand this, but then who does ?
     public int majorityElement(int[] nums) {
         int val = nums[0];
         int count = 1;
