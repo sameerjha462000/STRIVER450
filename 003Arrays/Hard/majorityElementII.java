@@ -1,4 +1,5 @@
 // problem -- https://leetcode.com/problems/majority-element-ii/
+// best video solution -- https://youtu.be/Ecsg2G5luYI (Atleast this worked for me)
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int val1 = -1;
