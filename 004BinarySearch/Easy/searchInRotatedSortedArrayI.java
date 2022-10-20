@@ -23,6 +23,7 @@ class Solution {
                     // search in [m+1, r]
                     l = m+1;
                 }else{
+                    // search in [l, m-1]
                     r = m-1;
                 }
             }
