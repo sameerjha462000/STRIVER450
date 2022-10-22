@@ -5,6 +5,12 @@ class Solution {
         int r = nums.length-1;
         int index = -1;
         
+
+        // claim : At any instance of time, I claim that either array is sorted between [l, m] and [m, r].
+        // But how would you prove this ? -- Split the cases and solve.
+
+
+        // But I don't get why we need array to have distinct values ??
         while(l <= r){
             int m =  l + (r-l)/2;
             if(nums[m] == target) return m;
