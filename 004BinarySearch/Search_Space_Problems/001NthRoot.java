@@ -1,7 +1,8 @@
 private static double nthRoot(int n, int m){
 	// we are required to find the nth root of m
-	double low = 0;
+	double low = 1;
 	double high = m;
+	// as the search space is [1, m]
 
 	// Let us say we want the degree of precision to be 5
 	double epsilon = 1e-6;
