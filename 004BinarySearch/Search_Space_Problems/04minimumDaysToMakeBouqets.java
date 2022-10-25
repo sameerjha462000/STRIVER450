@@ -1,3 +1,4 @@
+// problem -- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
         int n = bloomDay.length; // no of flowers
@@ -5,6 +6,7 @@ class Solution {
         // since each bouquet has k flowers and we need to make such m bouquets, so the minimum
         // number of flowers needed is m * k but we have only n flowers, so if that exceeds n 
         // then it would not be possible for us to make m bouqets.
+        
         if(m * k > n) return -1;
         
         // The minimum number of days required would be 1 and the maximum number of days required 
@@ -14,6 +16,7 @@ class Solution {
         int high = max(bloomDay);
         
         int minDays = -1;
+        
         while(low <= high){
             int mid = low + (high-low)/2;
             
