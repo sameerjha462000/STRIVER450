@@ -17,8 +17,9 @@ class Solution {
             long tt = timeTaken(piles, mid); // as tt can be long as well
 
             if(tt <= (long)h){
+
+                // If the time taken with speed mid is less than or equal to h, then record the current speed and try to decrease the speed.
                 speed = mid;
-                // decrease the speed
                 
                 high = mid-1;
             }else{
@@ -33,6 +34,7 @@ class Solution {
         return speed;
     }
     
+    // helper function to tell the time taken for eating the piles of bananas with speed == mid
     private static long timeTaken(int[] piles, int mid){
         long ans = 0;
         
@@ -43,6 +45,7 @@ class Solution {
         return ans;
     }
     
+    // helper funtion to find the max number of bananas in the piles.
     private static int max(int[] piles){
         int max = Integer.MIN_VALUE;
         
