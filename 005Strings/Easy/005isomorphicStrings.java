@@ -3,6 +3,10 @@ class Solution {
     public boolean isIsomorphic(String s, String t) {
         if(s.length() != t.length()) return false;
         
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 3872e689eb91747fd6942e8f7cea234b5e27c589
         int i = 0;
         int j = 0;
         
@@ -45,6 +49,11 @@ class Solution {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3872e689eb91747fd6942e8f7cea234b5e27c589
 // ROUGH WORK
 
 
@@ -52,3 +61,7 @@ class Solution {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3872e689eb91747fd6942e8f7cea234b5e27c589
