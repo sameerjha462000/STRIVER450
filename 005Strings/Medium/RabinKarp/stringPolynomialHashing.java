@@ -1,5 +1,5 @@
 // This is called string polynomial hashing
-private static long hashing(String s){
+private static long hashcode(String s){
 	long p = 31; // the reason why we took prime as 31 as |English_Alphabet| = 26. So, the prime used for hashing must be greater than 26. We could have also chosen 29 or 31.
 	long pow = 1;
 	long mod = 1000000007; // for preventing integer overflow
