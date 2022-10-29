@@ -1,4 +1,4 @@
-// problem -- 
+// problem -- https://leetcode.com/problems/sum-of-beauty-of-all-substrings/
 class Solution {
     public int beautySum(String s) {
         int ans = 0;
