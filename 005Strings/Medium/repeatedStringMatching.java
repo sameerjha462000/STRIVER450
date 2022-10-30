@@ -1,3 +1,4 @@
+// problem -- https://leetcode.com/problems/repeated-string-match/
 class Solution {
     public int repeatedStringMatch(String a, String b) {
         int sizea = a.length();
@@ -41,3 +42,19 @@ class Solution {
         return -1;
     }
 }
+
+
+
+
+// ROUGH WORK
+
+
+
+
+
+
+
+
+
+
+
