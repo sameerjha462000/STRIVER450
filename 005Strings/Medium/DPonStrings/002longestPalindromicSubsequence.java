@@ -18,6 +18,7 @@ class Solution {
         return helper(s, 0, s.length()-1, dp);
     }
     
+    // helper function to find the LPS of s[i, j]
     private static int helper(String s, int i, int j, int[][] dp){
         // Invalid base case
         if(i > j) return 0;
