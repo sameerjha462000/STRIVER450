@@ -22,3 +22,14 @@ public static String compression2(String str){
 		}
 		return sb.toString();
 }
+
+
+
+// ROUGH WORK
+
+
+
+
+
+
+
