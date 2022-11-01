@@ -4,13 +4,14 @@ class Solution {
         if(list1 == null) return list2;
         if(list2 == null) return list1;
         
+        // the concept of dummy node
         ListNode dummy = new ListNode(Integer.MAX_VALUE);
         ListNode head = dummy;
-        
         
         ListNode c1 = list1;
         ListNode c2 = list2;
         
+        // the concept of merging two sorted arrays
         while(c1 != null && c2 != null){
             if(c1.val <= c2.val){
                 head.next = c1;
